@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SampleApp</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <!--updating states-->
+    <string name="list_created">Press start</string>
+    <string name="updating">Updating&#8230;</string>
+    <string name="stopped">Stopped. Press start to continue</string>
+    <string name="counter">[Counter]</string>
 </resources>

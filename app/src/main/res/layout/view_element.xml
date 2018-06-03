@@ -1,0 +1,27 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.example.sampleapp.models.ElementModel" />
+    </data>
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/shape_circle_solid"
+            android:gravity="end|center"
+            android:text="@{Integer.toString(model.counter)}"
+            app:drawableTintColor="@{model.color}"
+            tool:text="@string/counter" />
+
+    </RelativeLayout>
+</layout>
